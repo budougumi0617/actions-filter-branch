@@ -4,7 +4,7 @@ workflow "filter branch" {
 }
 
 action "Filters for GitHub Actions" {
-  uses = "actions/bin/filter@b2bea0749eed6beb495a8fa194c071847af60ea1"
+  uses = "actions/bin/filter@master"
   args = "branch master"
 }
 
