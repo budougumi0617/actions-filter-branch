@@ -11,5 +11,5 @@ action "Filters for GitHub Actions" {
 action "Shell" {
   uses = "actions/bin/sh@master"
   needs = ["Filters for GitHub Actions"]
-  args = ["echo \\"master branch was pushed\\!\\!\\""]
+  args = ["echo success"]
 }
